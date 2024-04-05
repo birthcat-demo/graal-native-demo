@@ -8,6 +8,6 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        System.out.println(STR."Hello, World! My message is: \{message}");
+        System.out.println(STR."你好世界! My message is: \{message}");
     }
 }
