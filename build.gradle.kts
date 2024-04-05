@@ -19,7 +19,8 @@ graalvmNative {
     binaries {
         named("main") {
             mainClass.set(mainClassPath)
-            buildArgs.add("--enable-preview")
+            buildArgs.addAll("--enable-preview","-Ob","-H:+AddAllCharsets")
+
         }
     }
 }
